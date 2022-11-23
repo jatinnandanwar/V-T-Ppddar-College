@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    <item android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+        <item android:id="@+id/navigation_material"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Learning Material"/>
+
+    <item android:id="@+id/navigation_ExamSc"
+        android:icon="@drawable/ic_baseline_event_note_24"
+        android:title="Exam Schedule"/>
+
+    <item android:id="@+id/navigation_timetable"
+        android:icon="@drawable/ic_baseline_schedule_24"
+        android:title="Time Table"/>
+
+    <item android:id="@+id/navigation_holiday"
+        android:icon="@drawable/ic_baseline_wysiwyg_24"
+        android:title="Holidays"/>
+
+        <item android:id="@+id/navigation_exit"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Exit"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:focusable="true"
+        android:scrollbars="vertical"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#8395A8"
+        app:contentPadding="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hol_date"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="10 Aug"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="70dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/hol_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wednesday"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"/>
+
+            </LinearLayout>
+
+                <TextView
+                    android:id="@+id/hol_event"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ganesh Chaturty"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="#2B2B2B"/>
+
+            </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
